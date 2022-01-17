@@ -75,11 +75,11 @@
         This page was last modified <time class="modified timeago">sometime before now [browser might not support document.lastModified]</time>.
       </p>
       <p class="example">
-        Ryan was born <time class="timeago" datetime="1978-12-18T17:17:00Z">Dec 18, 1978</time>.
+        Ryan was born <time class="timeago" datetime="1978-12-18T17:17:00Z" title="December 18, 1978">December 18, 1978</time>.
       </p>
 
       <h3>Why?</h3>
-      <p>Timeago was originally built for use with <a href="http://yarp.com">Yarp.com</a> to timestamp comments.</p>
+      <p>Timeago was originally built for use with <a href="http://yarp.com" title="Yarp.com">Yarp.com</a> to timestamp comments.</p>
       <ul>
         <li>Avoid timestamps dated "1 minute ago" even though the page was opened 10 minutes ago; <em>timeago refreshes automatically</em>.</li>
         <li>You can <em>take full advantage of page caching</em> in your web applications, because the timestamps aren't calculated on the server.</li>
@@ -140,36 +140,36 @@ jQuery.timeago.settings.allowPast = false;</pre>
 
       <h3>Excusez-moi?</h3>
       <p>
-        Yes, timeago has locale/i18n/language support.  Here are some <a href="https://github.com/rmm5t/jquery-timeago/tree/master/locales">configuration examples</a>.  Please submit a <a href="https://github.com/rmm5t/jquery-timeago">GitHub pull request</a> for corrections or additional languages.
+        Yes, timeago has locale/i18n/language support.  Here are some <a href="https://github.com/rmm5t/jquery-timeago/tree/master/locales" title="Configuration examples">configuration examples</a>.  Please submit a <a href="https://github.com/rmm5t/jquery-timeago" title="GitHub pull request">GitHub pull request</a> for corrections or additional languages.
       </p>
 
       <h3>Where?</h3>
       <p><a href="jquery.timeago.js">Download the &quot;stable&quot; release</a>.</p>
       <p>
         The code is hosted on
-        GitHub: <a href="http://github.com/rmm5t/jquery-timeago">http://github.com/rmm5t/jquery-timeago</a>.
+        GitHub: <a href="https://github.com/rmm5t/jquery-timeago" title="rmm5t/jquery-timeago">https://github.com/rmm5t/jquery-timeago</a>.
         Go on, live on the edge.
       </p>
 
       <h3>Who?</h3>
       <p>
-        Timeago was built by <a href="http://ryan.mcgeary.org">Ryan McGeary</a>
-        (<a href="http://twitter.com/rmm5t">@rmm5t</a>) while standing on the
-        shoulders of giants.  John Resig wrote about
-        a <a href="http://ejohn.org/blog/javascript-pretty-date/">similar
+        Timeago was built by <a href="http://ryan.mcgeary.org" title="Ryan McGeary">Ryan McGeary</a>
+        (<a href="http://twitter.com/rmm5t" title="@rmm5t">@rmm5t</a>) while standing on the
+        shoulders of giants. John Resig wrote about
+        a <a href="http://ejohn.org/blog/javascript-pretty-date/" title="Similar approach">similar
         approach</a>.  The verbiage was based on
         the <tt>distance_of_time_in_words</tt> ActionView helper
-        in <a href="http://rubyonrails.org">Ruby on Rails</a>.
+        in <a href="http://rubyonrails.org" title="Ruby on Rails">Ruby on Rails</a>.
       </p>
 
       <h3>When?</h3>
       <p>
-        Timeago was conceived <time class="timeago" title="2008-07-17T02:30:00-0500">on July 17, 2008</time>.  <span class="help">(Yup, that's powered by timeago too)</span>
+        Timeago was conceived <time class="timeago" title="2008-07-17T02:30:00-0500" title="July 17, 2008">on July 17, 2008</time>.  <span class="help">(Yup, that's powered by timeago too)</span>
       </p>
 
       <h3>What else?</h3>
       <p class="example">
-        The HTML5 <tt>time</tt> tag is strongly recommended, but the legacy <a href="http://microformats.org/wiki/datetime-design-pattern">datetime microformat</a> using the <tt>abbr</tt> tag ( or any other HTML element ) is also supported:
+        The HTML5 <tt>time</tt> tag is strongly recommended, but the legacy <a href="http://microformats.org/wiki/datetime-design-pattern" title="Datetime microformat">datetime microformat</a> using the <tt>abbr</tt> tag (or any other HTML element) is also supported:
       </p>
       <pre>
 &lt;abbr class=&quot;<em>timeago</em>&quot; title=&quot;<em>2008-07-17T09:24:17Z</em>&quot;&gt;July 17, 2008&lt;/abbr&gt;</pre>
@@ -180,13 +180,13 @@ jQuery.timeago.settings.allowPast = false;</pre>
 jQuery(document).ready(function() {
   jQuery("abbr.timeago").timeago();
 });</pre>
-
+      
       <p>
         Are you concerned about time zone support? Don't be. Timeago handles
         this too. As long as your timestamps are
-        in <a href="http://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a> format
+        in <a href="http://en.wikipedia.org/wiki/ISO_8601" title="ISO 8601">ISO 8601</a> format
         and include a
-        full <a href="http://en.wikipedia.org/wiki/ISO_8601#Time_zone_designators">time
+        full <a href="http://en.wikipedia.org/wiki/ISO_8601#Time_zone_designators" title="Time zone designators">time
         zone designator</a> (±hhmm), everything should work out of the box
         regardless of the time zone that your visitors live in.
       </p>
@@ -205,17 +205,17 @@ end</pre>
 
       <p>
         Great! Please add your site to the list
-        of <a href="https://github.com/rmm5t/jquery-timeago/wiki/Sites-that-use-Timeago">Sites
+        of <a href="https://github.com/rmm5t/jquery-timeago/wiki/Sites-that-use-Timeago" title="Sites that use Timeago">Sites
         that use Timeago</a>.
       </p>
 
     </div>
     <div id="footer">
       <div style="float:right;">
-        <a href="http://www.opensource.org/licenses/mit-license.php">MIT
+        <a href="http://www.opensource.org/licenses/mit-license.php" title="MIT License">MIT
         License</a>
       </div>
-      Copyright &copy; 2008-2019 <a href="http://ryan.mcgeary.org">Ryan McGeary</a>
+      Copyright &copy; 2008-2019 <a href="http://ryan.mcgeary.org" title="Ryan McGeary">Ryan McGeary</a>
       (<a href="http://twitter.com/rmm5t">@rmm5t</a>)
     </div>
 
