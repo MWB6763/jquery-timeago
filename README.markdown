@@ -61,7 +61,7 @@ $("time#some_id").timeago("update", "2013-12-17T09:24:17Z");
 $("time#some_id").timeago("update", new Date());
 ```
 
-**For more usage and examples**: [http://timeago.yarp.com/](http://timeago.yarp.com/)
+**For more usage and examples**: [http://timeago.yarp.com/](https://timeago.yarp.com/)
 
 **For different language configurations**: visit the [`locales`](https://github.com/rmm5t/jquery-timeago/tree/master/locales) directory.
 
@@ -78,18 +78,18 @@ jQuery.timeago.settings.cutoff = 1000*60*60*24;
 
 | Version | Notes                                                                           |
 |---------|---------------------------------------------------------------------------------|
-|   1.6.x | ([compare][compare-1.6]) Wraped locales in UMD wrappers; locale improvements    |
+|   1.6.x | ([compare][compare-1.6]) Wrapped locales in UMD wrappers; locale improvements    |
 |   1.5.x | ([compare][compare-1.5]) Added Date as argument to update function; locales     |
 |   1.4.x | ([compare][compare-1.4]) Added allowPast setting; locale updates                |
 |   1.3.x | ([compare][compare-1.3]) Added updateFromDOM function; bug fixes; bower support |
 |   1.2.x | ([compare][compare-1.2]) Added cutoff setting; locale updates                   |
 |   1.1.x | ([compare][compare-1.1]) Added update function; locale updates                  |
-|   1.0.x | ([compare][compare-1.0]) locale updates; bug fixes; AMD wrapper                 |
-|  0.11.x | ([compare][compare-0.11]) natural rounding; locale updates;                     |
-|  0.10.x | ([compare][compare-0.10]) locale updates                                        |
-|   0.9.x | ([compare][compare-0.9]) microsecond support; bug fixes                         |
+|   1.0.x | ([compare][compare-1.0]) Locale updates; bug fixes; AMD wrapper                 |
+|  0.11.x | ([compare][compare-0.11]) Natural rounding; locale updates;                     |
+|  0.10.x | ([compare][compare-0.10]) Locale updates                                        |
+|   0.9.x | ([compare][compare-0.9]) Microsecond support; bug fixes                         |
 |   0.8.x | ([compare][compare-0.8]) `<time>` element support; bug fixes                    |
-|   0.7.x | ([compare][compare-0.7]) locale function overrides; unit tests                  |
+|   0.7.x | ([compare][compare-0.7]) Locale function overrides; unit tests                  |
 |     ... | ...                                                                             |
 
 [compare-1.6]: https://github.com/rmm5t/jquery-timeago/compare/v1.5.4...v1.6.7
@@ -107,7 +107,7 @@ jQuery.timeago.settings.cutoff = 1000*60*60*24;
 
 ## Author
 
-[Ryan McGeary](http://ryan.mcgeary.org) ([@rmm5t](http://twitter.com/rmm5t))
+[Ryan McGeary](https://ryan.mcgeary.org) ([@rmm5t](https://twitter.com/rmm5t))
 
 ## License
 
