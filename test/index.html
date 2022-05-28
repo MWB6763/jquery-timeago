@@ -54,22 +54,22 @@
 
     <h2>Other formats</h2>
 
-    <p>Date only (abbr element): <abbr class="timeago" title="2008-02-26">(you shouldn't see this)</abbr>.</p>
-    <p>Date only (time element): <time class="timeago" datetime="2008-02-26">(you shouldn't see this)</time>.</p>
-    <p>Date only (friendly tooltip): <abbr id="testTooltip" class="timeago" title="2008-02-26">February 26th</abbr>.</p>
-    <p>Date only (default tooltip): <abbr id="defaultTooltip" class="timeago" title="2008-02-26"> </abbr>.</p>
-    <p>Timestsamp (with millis): <abbr class="timeago" title="1978-12-18T17:17:00.021Z">(you shouldn't see this)</abbr>.</p>
+    <p>Date only (abbr element): <abbr class="timeago" title="February 26, 2008">(you shouldn't see this)</abbr>.</p>
+    <p>Date only (time element): <time class="timeago" datetime="2008-02-26" title="February 26, 2008">(you shouldn't see this)</time>.</p>
+    <p>Date only (friendly tooltip): <abbr id="testTooltip" class="timeago" title="February 26, 2008">February 26th</abbr>.</p>
+    <p>Date only (default tooltip): <abbr id="defaultTooltip" class="timeago" title="February 26, 2008"> </abbr>.</p>
+    <p>Timestsamp (with millis): <abbr class="timeago" title="December 18, 1978">(you shouldn't see this)</abbr>.</p>
 
-    <p><time id="testTimeTitle" class="timeago" datetime="2012-05-07T10:06:02+02:00" title="May 10, 2012 10:06">May 10, 2012</time></p>
-    <p><time id="testTimeTitle2" class="timeago" datetime="2012-05-07T10:06:02+02:00">May 10, 2012</time></p>
+    <p><time id="testTimeTitle" class="timeago" datetime="2012-05-10T10:06:02+02:00" title="May 10, 2012">May 10, 2012</time></p>
+    <p><time id="testTimeTitle2" class="timeago" datetime="2012-05-10T10:06:02+02:00" title="May 10, 2012">May 10, 2012</time></p>
 
     <h2>Cutoff</h2>
 
-    <p>Date that is before a past cutoff: <abbr class="timeago cutoff doCutoffPast" title="1978-12-18">(this should be displayed)</abbr></p>
+    <p>Date that is before a past cutoff: <abbr class="timeago cutoff doCutoffPast" title="December 18, 1978">(this should be displayed)</abbr></p>
 
     <p>Date that is after a past cutoff: <time class="timeago loaded cutoff dontCutoffPast">(you shouldn't see this)</time></p>
 
-    <p>Date that is past a future cutoff: <abbr class="timeago cutoff doCutoffFuture" title="2999-12-18">(this should be displayed)</abbr></p>
+    <p>Date that is past a future cutoff: <abbr class="timeago cutoff doCutoffFuture" title="December 18, 2999">(this should be displayed)</abbr></p>
 
     <p>Date that is before a future cutoff: <time class="timeago loaded cutoff dontCutoffFuture">(you shouldn't see this)</time></p>
 
